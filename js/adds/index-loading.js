@@ -36,7 +36,7 @@ var desigs = ["Student","Web developer","Programmer","UI designer","Researcher",
 // });
 
 
-// Designation CONTENT ADDED - Forward.
+// Designation CONTENT moving - Forward.
 
 window.addEventListener('DOMContentLoaded', () => {
     console.log('DOM fully loaded and parsed');
