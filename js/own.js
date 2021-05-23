@@ -54,7 +54,7 @@ window.addEventListener('DOMContentLoaded', () => {
                 clearInterval(inner);
             }
             document.getElementById("designation").innerText = newCurrent;
-        }, time);
+        }, time-100);
 
         i++;
         if(i == 6){
@@ -62,3 +62,7 @@ window.addEventListener('DOMContentLoaded', () => {
         }
     }, 2000);
 });
+
+
+
+
