@@ -14,10 +14,15 @@ form.addEventListener("submit", e=>{
         form.reset();
         setTimeout(() => {
             document.getElementById("submissionUpdate").innerText = "";
+            document.getElementById("submissionUpdate").style.color = "white";
         }, 5000);
     }).catch(err =>{
         console.log("Error!");
         document.getElementById("submissionUpdate").innerText = "Oh, something is wrong, couldn't reach to me!";
         document.getElementById("submissionUpdate").style.color = "red";
+        setTimeout(() => {
+            document.getElementById("submissionUpdate").innerText = "";
+            document.getElementById("submissionUpdate").style.color = "white";
+        }, 5000);
     })
 });
