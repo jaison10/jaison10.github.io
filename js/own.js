@@ -1,6 +1,6 @@
 var desigs = ["Student","Web developer","Programmer","UI designer","Researcher","Video editor"];
 
-//         MOVING CONTENT BACKWARDS - Removing.
+//     MOVING DESIGNATION CONTENT BACKWARDS - Removing.
 
 // window.addEventListener('DOMContentLoaded', (event) => {
 //     console.log('DOM fully loaded and parsed');
@@ -36,7 +36,7 @@ var desigs = ["Student","Web developer","Programmer","UI designer","Researcher",
 // });
 
 
-// CONTENT ADDED - Forward.
+// Designation CONTENT ADDED - Forward.
 
 window.addEventListener('DOMContentLoaded', () => {
     console.log('DOM fully loaded and parsed');
