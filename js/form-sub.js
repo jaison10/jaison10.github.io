@@ -10,6 +10,7 @@ form.addEventListener("submit", e=>{
     .then(res =>{
         // alert("Thanks.");
         document.getElementById("submissionUpdate").innerText = "Oh, received! Thanks!";
+        document.getElementById("submissionUpdate").style.color = "green";
         form.reset();
         setTimeout(() => {
             document.getElementById("submissionUpdate").innerText = "";
@@ -17,5 +18,6 @@ form.addEventListener("submit", e=>{
     }).catch(err =>{
         console.log("Error!");
         document.getElementById("submissionUpdate").innerText = "Oh, something is wrong, couldn't reach to me!";
+        document.getElementById("submissionUpdate").style.color = "red";
     })
 });
