@@ -71,7 +71,7 @@ projectsDetails = {
 
 
 window.addEventListener("DOMContentLoaded",()=>{
-    //  ----------------------------------------------------------------- Initial project list
+    //  ----------------------------------------------------------------- Initial project list loading
     // proslist = document.getElementById("projectList");
     // const element = document.createElement("ul");
     // element.classList.add("row","grid");
@@ -79,17 +79,16 @@ window.addEventListener("DOMContentLoaded",()=>{
     var result = "";
     for(var i=0; i<6; i++){
         result += `<li>
-                        <figure>
-                            <img src="img/projects/${images[i]}" alt="Portolio Image" />
-                            <div><span>${names[i]}</span></div>
-                        </figure>
-                    </li>`;
-        
+            <figure>
+                <img src="img/projects/${images[i]}" alt="Portolio Image" />
+                <div><span>${names[i]}</span></div>
+            </figure>
+        </li>`;
     }
     element.innerHTML = result;
     // proslist.appendChild(element);
 
-    // --------------------------------------------------------------   Detailed page of projects.
+    // ------------------------------------------------------------------ Detailed page of projects loading
     const elementDet = document.getElementById("projDetUL");
     var resultDet = "";
     
