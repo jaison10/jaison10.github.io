@@ -3,3 +3,16 @@
     text-transform: capitalize!important;
     font-size: 35px;
 }
+
+
+@media (max-width: 991px) {
+    .design_class{
+        font-size: 31px;
+    }
+}
+
+@media (max-width: 576px) {
+    .design_class{
+        font-size: 22px;
+    }
+}
