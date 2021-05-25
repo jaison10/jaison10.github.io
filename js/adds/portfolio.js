@@ -18,7 +18,7 @@ projectsDetails = {
         {
             "name":"Web design Project",
             "project":"Website",
-            "client":"Challengers",
+            "client":"VibeIndian",
             "lang":"HTML, CSS, JS",
             "link":"https://www.vibeindian.in",
             "linkName":"www.vibeindian.in",
