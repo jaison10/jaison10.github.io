@@ -1,7 +1,7 @@
 //  DATA BEGIN
 // Initial list data
-images = ["challengersNew.png","vibeindianNew.png","g1.png","manish_vector2.png","comfyHouseNew.png","weatherAppNew.png"];
-names = ["Web development Project","Web design Project","UAV Project","illustrator Project","VanillaJS Project","NodeJS Project"];
+images = ["challengersNew.png","VLAB-logo.jpg","g1.png","manish_vector2.png","comfyHouseNew.png","weatherAppNew.png","vibeindianNew.png"];
+names = ["Web development Project","NITK Project","UAV Project","illustrator Project","VanillaJS Project","NodeJS Project","Web design Project"];
 
 // Detailed projects data
 projectsDetails = {
@@ -16,13 +16,13 @@ projectsDetails = {
             "image": {"image":"challengers.PNG"},
         },
         {
-            "name":"Web design Project",
-            "project":"Website",
-            "client":"VibeIndian",
-            "lang":"HTML, CSS, JS",
-            "link":"https://www.vibeindian.in",
-            "linkName":"www.vibeindian.in",
-            "image": {"image":"vibeindian.PNG"},
+            "name":"JS Project",
+            "project":"VLAB-NITK",
+            "client":"NITK",
+            "lang":"Vanilla JS, HTML, CSS",
+            "link":"https://www.vlab.co.in/index.php",
+            "linkName":"NITK, VLAB",
+            "image": {"image":"VLAB.png" },
         },
         {
             "name":"UAV Project",
@@ -62,7 +62,16 @@ projectsDetails = {
                 "image":"weatherAppNew.png",
                 "image2" : "weatherAppResNew.png"
             },
-        }
+        },
+        {
+            "name":"Web design Project",
+            "project":"Website",
+            "client":"VibeIndian",
+            "lang":"HTML, CSS, JS",
+            "link":"https://www.vibeindian.in",
+            "linkName":"www.vibeindian.in",
+            "image": {"image":"vibeindian.PNG"},
+        },
     ]
 }
 
@@ -77,7 +86,7 @@ window.addEventListener("DOMContentLoaded",()=>{
     // element.classList.add("row","grid");
     const element = document.getElementById("projUL");
     var result = "";
-    for(var i=0; i<6; i++){
+    for(var i=0; i<7; i++){
         result += `<li>
             <figure>
                 <img src="img/projects/${images[i]}" alt="Portolio Image" />
