@@ -53,6 +53,7 @@
 }
 
 #showSwitcher {
+	visibility: hidden;
 	z-index: 11111;
 	margin-left:0px;
 	position:fixed;
